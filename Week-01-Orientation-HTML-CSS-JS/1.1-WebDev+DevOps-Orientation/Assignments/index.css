@@ -1,0 +1,138 @@
+/* General resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-color: #0e0e0e;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Link styling */
+a {
+  color: #4daafc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Navbar styling */
+.navbar {
+  height: 60px;
+  margin: 0 auto;
+  padding: 0px 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  border-bottom: 0.5px solid rgb(74, 73, 73);
+  background-color: #0e0e0e;  /* Double check for background color */
+}
+
+.navbar .nav-left .logo{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #e9eaeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar .nav-left .logo img {
+  width: 26px;
+  height: 26px;
+}
+
+.navbar .nav-mid .nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar .nav-mid .nav-links li a {
+  text-decoration: none;
+  color: #9ba3b4;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar .nav-mid .nav-links li a:hover {
+  color: #e9eaeb;
+}
+
+.navbar .nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar .nav-right img{
+    cursor: pointer;
+    padding: 2%;
+}
+
+.navbar .nav-right img:hover {
+  transform: scale(1.1);
+  background-color: rgb(44, 44, 44);
+  border-radius: 20%;
+}
+
+.navbar .nav-right .search {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 0.1px solid #9ba3b4;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  opacity: 0.6;
+}
+
+.navbar .nav-right .search i {
+  color: #9ba3b4;
+  cursor: pointer;
+}
+
+.navbar .nav-right .search input{
+    border: none;
+  outline: none;
+  background-color: #0e0e0e;
+  font-size: 15px;
+  width: 150px;
+}
+
+::placeholder {
+  color: 9ba3b4;
+}
+
+.navbar .nav-right .search:focus-within {
+  border: 1px solid #0069b9;     /* help to show that input field is active */
+}
+
+.navbar .nav-right button {
+  color: #e9eaeb;
+  font-weight: 600;
+  background-color: #0069b9;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navbar .nav-right button:hover {
+  background-color: #005da3;
+}
