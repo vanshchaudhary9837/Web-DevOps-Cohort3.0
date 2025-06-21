@@ -33,7 +33,7 @@ a {
   left: 0;
   right: 0;
   z-index: 9;
-  border-bottom: 0.5px solid rgb(74, 73, 73);
+  /* border-bottom: 0.1px solid rgb(74, 73, 73); */
   background-color: #0D1117;
 }
 
@@ -214,4 +214,41 @@ a {
 
 .link-group:hover #links2 {
   opacity: 1;
+}
+
+.hero .hero-video {
+  width:1120px;
+  height:700px;
+  position: relative;
+  background-image: url('./images/hero-background.webp');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.hero .hero-video .overlay-video {
+  width: 992px;
+  height: 594px;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.hero #playBtn{
+  font-size: 20px;
+  color: #9ba3b4;
+  background: transparent;
+  font-weight: 500;
+  padding: 6px 20px;
+  border: solid 2px transparent;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: border .3s ease;
+  margin-top: 12px;
+}
+
+.hero #playBtn:hover {
+  border: solid 2px #9ba3b4;
 }
