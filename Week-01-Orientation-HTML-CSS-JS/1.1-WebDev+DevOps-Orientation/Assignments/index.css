@@ -145,7 +145,7 @@ a {
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  border-bottom: 0.5px solid rgb(74, 73, 73);
+  /* border-bottom: 0.5px solid rgb(74, 73, 73); */
   background-color: #0D1117;
 }
 
@@ -251,4 +251,74 @@ a {
 
 .hero #playBtn:hover {
   border: solid 2px #9ba3b4;
+}
+
+/* --------------------------feature section------------------------------ */
+
+.features {
+  padding: 92px 40px;
+  font-size: 14px;
+}
+
+
+.features .cards{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 48px;
+}
+
+.features .cards .card{
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.04);
+  border-radius: 10px;
+  padding: 16px;
+  flex: 1;
+  max-height: auto;
+}
+
+.features .cards .card h2{
+  font-size: 20px;
+  margin: 10px 0;
+  color: #c3d0e5;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 150%;
+}
+
+.features .cards .card p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #9FB1D1;
+  margin: 0 0 10px;
+}
+
+.features .cards .card img{
+  width: 100%;
+  height: auto;
+}
+
+
+/* ----------------------------------Banner section -------------------------------- */
+
+.banner {
+  padding: 40px 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-image: url(./images/copilot-free-banner.webp);
+  background-size: cover;
+  border: solid 1px rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 40px 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.banner .left{
+  color: #e6eefA;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-top: 0;
+  line-height: 150%;
+  font-size: 24px;
 }
