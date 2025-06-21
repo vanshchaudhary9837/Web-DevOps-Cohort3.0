@@ -7,7 +7,7 @@
 
 /* Body styling */
 body {
-  background-color: #0e0e0e;
+  background-color: #0D1117;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -22,7 +22,7 @@ a {
 
 /* Navbar styling */
 .navbar {
-  height: 60px;
+  height: 70px;
   margin: 0 auto;
   padding: 0px 3%;
   display: flex;
@@ -34,7 +34,7 @@ a {
   right: 0;
   z-index: 9;
   border-bottom: 0.5px solid rgb(74, 73, 73);
-  background-color: #0e0e0e;  /* Double check for background color */
+  background-color: #0D1117;
 }
 
 .navbar .nav-left .logo{
@@ -135,4 +135,83 @@ a {
 
 .navbar .nav-right button:hover {
   background-color: #005da3;
+}
+
+     /*----------------------------Hero section------------------------------------  */
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 0.5px solid rgb(74, 73, 73);
+  background-color: #0D1117;
+}
+
+.hero h1 {
+  padding-top: 160px;
+  margin-bottom: 25px;
+  font-size: 72px;
+  max-width: 1000px;
+  font-weight: 700;
+  color: #c3d0e5;
+  line-height: 120%;
+  letter-spacing: -0.8px;
+}
+
+.hero .buttons #btn1{
+  background-color: #0078d4;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero .buttons #btn1:hover {
+  background-color: #005da3;
+  border: 1px solid #005da3;
+}
+
+.hero .buttons #btn2{
+  background-color: #25292E;
+  color: #c3d0e5;
+  border: 1px solid rgba(255,255,255,0.3);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero .buttons #btn2:hover{
+  background-color: #2f343a;
+}
+
+.hero .buttons{
+  margin-bottom: 8px;
+}
+
+.hero #links1{
+  font-size: 12px;
+  color: #9ba3b4;
+}
+
+.hero #links2{
+  margin-top: 8px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #9ba3b4;
+  text-decoration-color: #9ba3b4;
+  opacity: 0;
+  transition-timing-function: ease-out;
+  transition-duration: .15s;
+}
+
+.link-group:hover #links2 {
+  opacity: 1;
 }

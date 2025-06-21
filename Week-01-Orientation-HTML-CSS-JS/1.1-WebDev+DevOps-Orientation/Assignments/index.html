@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visual Studio Code - Code Editor</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" />
     <!-- font-awesome CDN link to add icons -->
     <link
       rel="stylesheet"
@@ -13,37 +13,84 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="nav-left">
-            <a href="#" class="logo">
-                <img src="./images/logo.png" alt="logo">
-                <span>Visual Studio Code</span>
-            </a>
-        </div>
-        
-        <div class="nav-mid">
-            <ul class="nav-links">
-                <li><a href="https://code.visualstudio.com/docs">Docs</a></li>
-                <li><a href="https://code.visualstudio.com/updates/v1_101">Updates</a></li>
-                <li><a href="https://code.visualstudio.com/blogs/2025/06/12/full-mcp-spec-support">Blog</a></li>
-                <li><a href="https://code.visualstudio.com/api">API</a></li>
-                <li><a href="https://marketplace.visualstudio.com/VSCode">Extensions</a></li>
-                <li><a href="https://code.visualstudio.com/docs/supporting/faq">FAQ</a></li>
-                <li><a href="https://code.visualstudio.com/docs/copilot/overview">GitHub Copilot</a></li>
-                <li><a href="https://code.visualstudio.com/mcp">MCP</a></li>
-            </ul>
-        </div>
+      <div class="nav-left">
+        <a href="#" class="logo">
+          <img src="./images/logo.png" alt="logo" />
+          <span>Visual Studio Code</span>
+        </a>
+      </div>
 
-        <div class="nav-right">
-            <img src="./images/light.svg" alt="light icon">
-            <div class="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search Docs">
-            </div>
-            <button>Download</button>
+      <div class="nav-mid">
+        <ul class="nav-links">
+          <li><a href="https://code.visualstudio.com/docs">Docs</a></li>
+          <li>
+            <a href="https://code.visualstudio.com/updates/v1_101">Updates</a>
+          </li>
+          <li>
+            <a
+              href="https://code.visualstudio.com/blogs/2025/06/12/full-mcp-spec-support"
+              >Blog</a
+            >
+          </li>
+          <li><a href="https://code.visualstudio.com/api">API</a></li>
+          <li>
+            <a href="https://marketplace.visualstudio.com/VSCode">Extensions</a>
+          </li>
+          <li>
+            <a href="https://code.visualstudio.com/docs/supporting/faq">FAQ</a>
+          </li>
+          <li>
+            <a href="https://code.visualstudio.com/docs/copilot/overview"
+              >GitHub Copilot</a
+            >
+          </li>
+          <li><a href="https://code.visualstudio.com/mcp">MCP</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <img src="./images/light.svg" alt="light icon" />
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search Docs" />
         </div>
+        <button>Download</button>
+      </div>
     </nav>
-</body>
+
+    <section class="hero">
+      <h1>
+        Your code editor. <br />
+        Redefined with AI.
+      </h1>
+      <div class="link-group">
+        <div class="buttons">
+        <button id="btn1">Download for Windows</button>
+        <button id="btn2">Try agent mode</button>
+      </div>
+      <div id="links1"
+        ><a href="https://vscode.dev/">Web</a>,
+        <a href="https://code.visualstudio.com/insiders/">Insiders edition</a>,
+        or
+        <a href="https://code.visualstudio.com/Download"
+          >other platforms</a
+        ></div
+      >
+      <div id="links2"
+        >By using VS Code, you agree to its
+        <a href="https://code.visualstudio.com/license">license</a> and
+        <a href="https://www.microsoft.com/en-us/privacy/privacystatement"
+          >privacy statement</a
+        >.</div
+      >
+      </div>
+
+      <!-- <div class="hero-img">
+        <img src="./images/image1.png" alt="hero image" />
+      </div> -->
+    </section>
+  </body>
 </html>
