@@ -497,8 +497,8 @@ a {
     text-decoration: none;
 }
 
-.right a:hover {
-  
+.right .grid a:hover {
+  border: solid 1px #9ba3b4;
 }
 
 .right a img {
@@ -508,7 +508,7 @@ a {
     border-radius: 4px;
 }
 
-.lang h3 {
+.lang-extension h3 {
   color: #c3d0e5;
     font-size: 16px;
     margin: 0;
@@ -518,7 +518,7 @@ a {
     line-height: 160%;
 }
 
-.lang p {
+.lang-extension p {
   color: #9FB1D1;
   font-size: 14px;
     line-height: 140%;
@@ -540,4 +540,55 @@ a {
 .extension .right .grid-caption a {
   font-size: 13px;
   text-decoration: underline;
+}
+
+/* -----------------------------------------language section---------------------------------- */
+
+.language{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 90px 70px;
+  gap: 80px;
+}
+
+.lang-left h2 {
+  color: #c3d0e5;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin-top: 0;
+    line-height: 150%;
+    font-size: 30px;
+}
+
+.lang-left p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #9FB1D1;
+  margin: 0 0 10px;
+  text-align: justify;
+}
+
+.language .lang-right{
+   min-width: 720px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.lang-right .lang{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.lang-right .lang img {
+  height: 40px;
+  width: auto
+}
+
+.lang-right .lang code{
+  font-size: 16px;
+  color: #9ba3b4;
 }
