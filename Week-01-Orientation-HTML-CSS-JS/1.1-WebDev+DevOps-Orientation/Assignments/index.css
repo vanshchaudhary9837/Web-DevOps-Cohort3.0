@@ -394,3 +394,45 @@ a {
   height: auto;
 }
 
+/* -----------------------------Suggestions section---------------------------------- */
+
+
+.suggestion{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 90px 70px;
+  gap: 40px;
+}
+
+.suggestion .suggestion-left h2 {
+  color: #c3d0e5;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin-top: 0;
+    line-height: 150%;
+    font-size: 30px;
+}
+.suggestion .suggestion-left p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #9FB1D1;
+  margin: 0 0 10px;
+  text-align: justify;
+}
+
+.suggestion .suggestion-left a{
+  font-size: 16px;
+    font-weight: 500;
+    color: #4daafc;
+    text-decoration: underline;
+}
+
+.suggestion .suggestion-right img{
+  width: 720px;
+  height: auto;
+}
+
+
+/* -----------------------------Extension section---------------------------------- */
