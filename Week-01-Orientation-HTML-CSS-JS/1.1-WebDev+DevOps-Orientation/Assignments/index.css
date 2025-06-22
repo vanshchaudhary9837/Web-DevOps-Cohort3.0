@@ -256,7 +256,7 @@ a {
 /* --------------------------feature section------------------------------ */
 
 .features {
-  padding: 92px 40px;
+  padding: 92px 70px;
   font-size: 14px;
 }
 
@@ -302,23 +302,57 @@ a {
 /* ----------------------------------Banner section -------------------------------- */
 
 .banner {
-  padding: 40px 0;
-  margin-left: 40px;
-  margin-right: 40px;
+  padding: 40px ;
+  margin-left: 70px;
+  margin-right: 70px;
   background-image: url(./images/copilot-free-banner.webp);
   background-size: cover;
   border: solid 1px rgba(255,255,255,0.12);
   border-radius: 8px;
-  padding: 40px 0;
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
 }
 
-.banner .left{
+.banner .left {
+  padding: 0 18px;
+}
+
+.banner .left h2{
   color: #e6eefA;
   font-weight: 600;
   letter-spacing: -0.5px;
   margin-top: 0;
   line-height: 150%;
-  font-size: 24px;
+  font-size: 30px;
 }
+
+.banner .right{
+  padding: 0 40px;
+}
+
+.banner .right p{
+  color: #e6eefA;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  margin: 0 0 10px;
+}
+
+.banner .right button{
+  background-color: #25292E;
+  color: #c3d0e5;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 5px 12px;
+  width: fit-content;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.banner .right button:hover {
+  background-color: #2f343a;
+}
+
+/* ---------------------------------Agent section------------------------------------ */
