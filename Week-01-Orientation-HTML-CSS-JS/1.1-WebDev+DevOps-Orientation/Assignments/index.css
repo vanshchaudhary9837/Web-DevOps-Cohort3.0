@@ -758,3 +758,21 @@ a {
 
 /* -----------------------------footer section---------------------------------- */
 
+footer{
+  margin: 90px 70px;
+}
+
+footer ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+.footer ul li {
+  display: inline-block;
+}
+
+footer ul li a{
+  font-size: 12px;
+  font-weight: 500;
+  color: #9FB1D1;
+}
